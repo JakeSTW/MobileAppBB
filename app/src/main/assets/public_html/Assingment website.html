@@ -1,0 +1,141 @@
+<html>
+<head> 
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Uni website - NBA</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- this link below is from bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Assingment website.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                     <li><a href="Assingment%20website.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="The%20history.html">THE HISTORY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Current%20NBA.html">CURRENT NBA</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>The National Basketball Assocition</h1>
+        <p>This page is for my university assignment, this website will give information about the NBA and an insight in to basketball and what goes in to it, making it one of the most popular sports.
+        </p>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>  
+    
+    <!-----The History------>
+    
+   
+    <section class="TheHistory">
+        <h1>The History Of The NBA</h1>
+        <p>The NBA was first founded 6th June 1946, but basketball itself was inveted 1st December 1891</p>
+        
+        <div class="row">
+            
+             <div class="TheHistory-col">
+                <h3>The 90's</h3>
+                <p>There were many players that changed the game of basketball and some of them even made rule changes, such as players like wilt chamberlin, were able to block shots before they went in, so they had to add in the goaltending rule.</p>
+            </div>
+               
+                <div class="TheHistory-col">
+                <h4>The 2000's</h4>
+                <p>The 2000's had many great players such as legendary Kobe Bryant and Lebron James who made the game of basketball even more popular, it also had icons such as Allen Iverson who popularised dribbling and a clothing style.</p>
+                      </div>
+                   <div class="TheHistory-col">
+                <h5>The 2010's</h5>
+                <p>The 2010's have made the game of basketball much different then it was when it first was around, players have made the game more technical and more skillful, such as James Harden popularising the step back move and Steph Curry making the 3pt line even more popular.</p>
+            </div>
+            
+                </div>
+        
+    
+    </section>
+    
+    
+    <!---------- Current NBA ------------>
+
+<section class="CurrentNBA">
+<h1>The Current NBA</h1>
+    <p>The current NBA has had many different rule changes and players have become more skillful and technical to adpat to the new rules and to adapt to the players becoming more skillful the boundaries keep being lifted.The players below were the 2020/2021 candidates for MVP, Nikola Jokic ended up winning MVP despite all of the critism he got and the doubts he was facing.</p>
+    
+    <div class="row">
+    <div class="CurrentNBA-col">
+        <img src="images/Steph.jpg">
+        <div class="layer">
+            <h3>Stephen Curry</h3>
+        </div>
+        </div>
+        <div class="CurrentNBA-col">
+        <img src="images/Joel.jpg">
+        <div class="layer">
+            <h3>Joel Embiid</h3>
+        </div>
+        </div>
+        <div class="CurrentNBA-col">
+        <img src="images/Nikola.jpg">
+        <div class="layer">
+            <h3>Nikola Jokic</h3>
+        </div>
+        </div>
+    </div>
+
+</section>
+    <!---------- Blog ------------->
+<section class="Blog">
+    <h1>NBA Blog</h1>
+    <p>This page will show my blogs about the NBA and Basketball in general.</p>
+    
+    <div class="row">
+    <div class="Blog-col">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLXaLAuDjYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Blog</h3>
+        <p>I have been in to basketball for about 6 years, so I started wanting to learn more about the sport so I started watching the NBA and learning the sport and how to play it. I've learned the player postions, and their roles and I've learned a lot about NBA players and how they play</p>
+        </div>
+         
+         <div class="Blog-col">
+        <h3>Blog</h3>
+        <p>The NBA has added new rules to foul charges, this has become very controversial, the new rule has made it so it disallows players from leaning into defenders and relying on non-basketball moves to draw fouls. Many players are struggling with this new rule change.</p>
+        </div>
+        
+         <div class="Blog-col">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/5naB2i9UcQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Blog</h3>
+        <p>There are 3 players that are considered the greatest of all time and they are Micheal Jordan, Kobe Bryant and LeBron James. They have all had incredible careers and LeBron James is still playing as of 2021-2022, he is set to become the new highest scoring player in the whole of the NBA but people still think Micheal Jordan or Kobe Bryant are better because of the accolades they have. </p>
+        </div>
+    </div>
+    
+    </section>
+    
+   <!----------- Contact us ----------->
+    
+     <section class="Cta">
+       <h1>Contact me for any enquires</h1>
+       <a href="Contact.html" class="hero-btn">CONTACT</a>
+    </section>
+    
+    
+   
+    <!---------JavaScript for Toggle Menu---------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        </script>
+    
+</body>
+</html>

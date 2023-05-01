@@ -1,0 +1,69 @@
+<html>
+<head> 
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Uni website - NBA</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- this link below is from bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Assingment website.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="Assingment%20website.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="The%20history.html">THE HISTORY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Current%20NBA.html">CURRENT NBA</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>  
+       
+    <!-------- about us ---------->
+   
+    <section class="about">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1>About the website</h1>
+                <p>his website is for my univeristy assingment at New Buckinghamshire Univeristy, I decided to make it about the NBA and basketball in general. tIt discusses my experience with basketball and how the NBA functions and some insight on the very complex sport with a lot of history. It will go through the history of the NBA, Some of the greatest players to ever play, some of the best current players and more!</p>
+            <a href="Assingment%20website.html" class="hero-btn red-btn">Off you go!</a>
+            </div>
+            <div class="about-col">
+            <img src="images/Lebron.png">
+        </div>
+        </div>
+    </section>
+    
+ 
+   <!----------- Contact us ----------->
+    
+     <section class="Cta">
+       <h1>Contact me for any enquires</h1>
+       <a href="Contact.html" class="hero-btn">CONTACT</a>
+    </section>
+    
+    
+   
+    <!---------JavaScript for Toggle Menu---------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+<head> 
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Uni website - NBA</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- this link below is from bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Assingment website.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                      <li><a href="Assingment%20website.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="The%20history.html">THE HISTORY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Current%20NBA.html">CURRENT NBA</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>The History of the NBA</h1>
+    </section>  
+       
+    <!-------- The History of the NBA ---------->
+   
+    <section class="TheHistory">
+        
+ <section class="TheHistory">
+        <h1>The History Of The NBA</h1>
+        <p>The NBA was first founded 6th June 1946, but basketball itself was invented 1st December 1891</p>
+        
+        <div class="row">
+            
+             <div class="TheHistory-col">
+                <h3>The 90's</h3>
+                <p>There were many players that changed the game of basketball and some of them even made rule changes, such as players like wilt chamberlin, were able to block shots before they went in, so they had to add in the goaltending rule.</p>
+            </div>
+               
+                <div class="TheHistory-col">
+                <h4>The 2000's</h4>
+                <p>The 2000's had many great players such as legendary Kobe Bryant and Lebron James who made the game of basketball even more popular, it also had icons such as Allen Iverson who popularised dribbling and a clothing style.</p>
+                      </div>
+                   <div class="TheHistory-col">
+                <h5>The 2010's</h5>
+                <p>The 2010's have made the game of basketball much different then it was when it first was around, players have made the game more technical and more skillful, such as James Harden popularising the step back move and Steph Curry making the 3pt line even more popular.</p>
+            </div>
+            
+                </div>
+        
+    
+            <div class="TheHistory-col">
+            <img src="images/Shawn.jpg">
+        </div>
+    </section>
+        
+    
+    
+    
+ 
+   <!----------- Contact us ----------->
+    
+     <section class="Cta">
+       <h1>Contact me for any enquires</h1>
+       <a href="Contact.html" class="hero-btn">CONTACT</a>
+    </section>
+    
+    
+   
+    <!---------JavaScript for Toggle Menu---------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        </script>
+    
+</body>
+</html>

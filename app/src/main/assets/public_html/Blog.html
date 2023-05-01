@@ -1,0 +1,82 @@
+<html>
+<head> 
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Uni website - NBA</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- this link below is from bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Assingment website.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="Assingment%20website.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="The%20history.html">THE HISTORY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Current%20NBA.html">CURRENT NBA</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>  
+       
+    <!-------- Blog ---------->
+   
+    <section class="Blog">
+        
+        <div class="row">
+            <div class="Blog-left">
+                <img src="images/KD.JPEG">
+                <h2>Blog</h2>
+                <p>The NBA has added new rules to foul charges, this has become very controversial, the new rule has made it so it disallows players from leaning into defenders and relying on non-basketball moves to draw fouls. Many players are struggling with this new rule change.</p>
+                <br>
+                <p>I have been in to basketball for about 6 years, so I started wanting to learn more about the sport so I started watching the NBA and learning the sport and how to play it. I've learned the player postions, and their roles and I've learned a lot about NBA players and how they play</p>
+                <br>
+                <p>There are 3 players that are considered the greatest of all time and they are Micheal Jordan, Kobe Bryant and LeBron James. They have all had incredible careers and LeBron James is still playing as of 2021-2022, he is set to become the new highest scoring player in the whole of the NBA but people still think Micheal Jordan or Kobe Bryant are better because of the accolades they have. </p>
+            <div class="Comment-box">
+                <h3>Leave a comment</h3>               
+                
+                <!---------------- Comment box ------------->
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea row="5" placeholder="Your comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+ 
+   <!----------- Contact us ----------->
+    
+      <section class="Cta">
+       <h1>Contact me for any enquires</h1>
+       <a href="Contact.html" class="hero-btn">CONTACT</a>
+    </section>
+    
+    
+   
+    <!---------JavaScript for Toggle Menu---------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        </script>
+    
+</body>
+</html>
